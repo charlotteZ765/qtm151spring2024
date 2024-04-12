@@ -181,6 +181,10 @@ ORDER BY victories DESC;
 -- "Double quotations" are used to refer to column names
 SELECT * FROM drivers 
 WHERE nationality = 'German';
+-- SQLBook: Code
+-- Write your own code!
+SELECT driver_name, nationality, driver_id, victories FROM drivers;
+
 -- SQLBook: Markup
 <font size = "5">
 
@@ -188,10 +192,6 @@ Try it yourself!
 
 - Select "nationality" and "driver_id" for drivers <br>
 with more than 60 victories
--- SQLBook: Code
--- Write your own code!
-SELECT driver_name, nationality, driver_id, victories FROM drivers;
-
 -- SQLBook: Markup
 # <span style="color:darkblue"> III. Groupby + Chaining </span>
 
